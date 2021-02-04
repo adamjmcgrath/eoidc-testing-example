@@ -4,17 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest index.test.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "express-openid-connect": "^2.2.1"
-  },
-  "devDependencies": {
-    "got": "^11.8.1",
-    "jest": "^26.6.3"
+    "express-openid-connect": "^2.2.1",
+    "ws": "^7.4.3"
   }
 }

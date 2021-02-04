@@ -1,4 +1,6 @@
-Example of testing an [express-openid-connect](https://github.com/auth0/express-openid-connect) app
+Example of authentication with websockets and [express-openid-connect](https://github.com/auth0/express-openid-connect)
 
-
-Run: ```npm test```
+```sh
+cp .env.sample .env
+npm start
+```
